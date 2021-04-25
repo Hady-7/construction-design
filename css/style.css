@@ -1,0 +1,808 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.wrapper {
+    max-width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sec1{
+    background-color: RGB(255,203,15);
+    color: #000;
+}
+#sec1 a{
+    color: black;
+}
+/*section2*/
+#sec2 {
+    background-color: RGB(34,37,51);
+    color: #fff;
+}
+#sec2 span{
+    color: RGB(255,203,15);
+}
+#sec2 p{
+    color:RGB(165,166,167) ;
+}
+#sec2 a{
+    color: #fff ;
+    text-transform: capitalize;
+}
+/*section3*/
+#sec3{
+    background: url("../Images/banner.jpg") no-repeat center center ;
+    height: 120vh;
+}
+#layer1{
+    background-color:rgba(14, 15, 15, 0.3);
+    height: 120vh;
+}
+#sec3 article{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#sec3 article #lh1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+#sec3 article #yh1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: RGB(255,203,15);
+}
+#sec3 article button{
+    background-color: RGB(34,37,51);
+    border: thin solid RGB(255,203,15);
+    color: RGB(255,203,15);
+    padding: 10px 10px;
+    margin: 5px;
+    text-transform: uppercase;
+
+}
+/*section 4*/
+#sec4 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+#sec4 h1 {
+    color: #FFCB0F;
+    text-transform: uppercase;
+    font-size: 5vw;
+    margin: 15px auto;
+    
+}
+
+#sec4 h3 {
+    color: #000;
+    font-size: 3vw;
+}
+
+#sec4 p {
+    color: #000;
+    font-size: 0.8rem;
+    text-align: justify;
+    margin: 15px auto;
+}
+
+#sec4 a {
+    color: #fff;
+    background-color: #FFCB0F;
+    display: block;
+    width: 70%;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 40px auto;
+    transition: 0.3s all ease;
+}
+
+#sec4 a:hover {
+    background-color: #000;
+}
+#sec4 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*section5*/
+#sec5 {
+    background: url("../Images/bg4.jpg") no-repeat center center;
+    background-size: cover;
+}
+#layer2 {
+    background-color:rgba(14, 15, 15, 0.3);
+
+}
+#layer2 .wrapper{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#layer2 .wrapper header{
+    padding: 20px 10px;
+}
+#layer2 .wrapper header h1{
+    color: RGB(255,203,15);
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+#layer2 .wrapper header p{
+color: #fff;
+padding-bottom: 10px;
+}
+
+#cardcont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#cardcont #card1{
+    background-color: rgba(14, 15, 15, 0.3);
+    position: relative;
+    padding: 0px 10px 10px;
+    padding-top: 20% ;
+    flex-basis: 100%;
+    margin: 20px 10px ;
+    border-radius: 10px;
+}
+#cardcont #card1 img{
+    position: absolute;
+    background-color: RGB(255,203,15) ;
+    top: -35px ;
+    left: 40% ;
+    padding: 22px 22px;
+    border-radius: 50%;
+}
+#cardcont #card1 p{
+    color: #fff;
+}
+#cardcont #card1 h1{
+    color: RGB(255,203,15);
+    padding-bottom: 5px;
+
+}
+#cardcont #card2{
+    background-color: rgba(14, 15, 15, 0.3);
+    position: relative;
+    padding: 0px 10px 10px;
+    padding-top: 20% ;
+    flex-basis: 100%;
+    margin: 20px 10px ;
+    border-radius: 10px;
+
+}
+#cardcont #card2 img{
+    position: absolute;
+    background-color: RGB(255,203,15) ;
+    top: -35px ;
+    left: 40% ;
+    padding: 22px 22px;
+    border-radius: 50%;
+}
+#cardcont #card2 p{
+    color: #fff;
+}
+#cardcont #card2 h1{
+    color: RGB(255,203,15);
+    padding-bottom: 5px;
+
+}
+#cardcont #card3{
+    background-color: rgba(14, 15, 15, 0.3);
+    position: relative;
+    padding: 0px 10px 10px;
+    padding-top: 20% ;
+    flex-basis: 100%;
+    margin: 20px 10px ;
+    border-radius: 10px;
+
+}
+#cardcont #card3 img{
+    position: absolute;
+    background-color: RGB(255,203,15) ;
+    top: -35px ;
+    left: 40% ;
+    padding: 22px 22px;
+    border-radius: 50%;
+}
+#cardcont #card3 p{
+    color: #fff;
+}
+#cardcont #card3 h1{
+    color: RGB(255,203,15);
+    padding-bottom: 5px;
+}
+#cardcont #card4{
+    background-color: rgba(14, 15, 15, 0.3);
+    position: relative;
+    padding: 0px 10px 10px;
+    padding-top: 20% ;
+    flex-basis: 100%;
+    margin: 20px 10px ;
+    border-radius: 10px;
+
+}
+#cardcont #card4 img{
+    position: absolute;
+    background-color: RGB(255,203,15) ;
+    top: -35px ;
+    left: 40% ;
+    padding: 22px 22px;
+    border-radius: 50%;
+}
+#cardcont #card4 p{
+    color: #fff;
+}
+#cardcont #card4 h1{
+    color: RGB(255,203,15);
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+/*section 6*/
+#sec6{
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+#sec6 .wrapper{
+    text-align: center;
+}
+#sec6 .wrapper>h1{
+    padding: 25px 0px;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+#sec6 .wrapper article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+}
+#sec6 .wrapper article div{
+    position: relative;
+}
+#sec6 .wrapper article div img{
+    width: 100%;
+    background-color: #000;
+}
+
+#sec6 .wrapper article span{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 20% ;
+    background-color: rgba(14, 15, 15, 0.7);
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+#sec6 .wrapper article p{
+    padding: 10px 0px;
+    text-align: left;
+}
+#sec6 .wrapper article button{
+    background-color: RGB(255,203,15);
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+#cont1 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#cont1 article {
+    flex-basis: 90%;
+}
+/*section7*/
+#sec7 {
+    background: url(../Images/bg2.jpg) no-repeat  ;
+}
+#layer3 {
+    background-color: rgba(49, 49, 49, 0.8);
+
+}
+#layer3 .wrapper{
+    text-align: center ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#layer3 .wrapper  h1{ 
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 10px;
+}
+#layer3 .wrapper  p{ 
+    color: #fff;
+    padding: 20px 10px;
+}
+#links{
+    margin: 20px 0px;
+}
+#links p{
+    color: #fff;
+    padding: 10px 10px ;
+    text-transform: uppercase;
+    font-size: 1rem;
+    display: inline-block;
+}
+#links p:hover{
+    background-color: rgba(14, 15, 15, 0.3);
+    border-radius: 15px;
+}
+#sec7 img {
+    max-width: 100%;
+    height: auto;
+}
+
+#sec7 article {
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+#sec7 article div {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+#sec7 article div img{
+    width:47%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/*section 8*/
+#sec8{
+    background: url(../Images/bg3.jpg) no-repeat center center;
+}
+#sec8 .wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+#sec8 .wrapper h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 20px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#sec8 .wrapper p{
+    margin-bottom: 20px;
+}
+
+#artcont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#sec8 .wrapper>div>article{
+    position: relative;
+    background-color: rgba(150, 148, 148, 0.8);
+    width: 90%;
+    padding: 10px 10px;
+    padding-left: 20%;
+    margin-bottom: 40px;
+}
+#sec8 .wrapper>div>article:hover{
+    background-color: RGB(255,203,15);
+    color: #fff;
+}
+#sec8 .wrapper>div>article:hover .z1{
+    z-index: 5;
+}
+#sec8 .wrapper>div>article:hover .z2{
+    z-index: 5;
+    display: inline;
+}
+
+
+#sec8 article img{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+#sec8 article #img1{
+    position: absolute;
+    top: 100%;
+    left: 48%;
+}
+.z2 {
+    display: none;
+}
+.smith{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.smith img{
+    border-radius: 50%;
+}
+.smith h3{
+    text-transform: uppercase;
+}
+/*section 9*/
+#sec9 {
+    background-color: rgb(255,203,15,0.6);
+    padding: 30px 0 15px;
+    color: #686B72;
+    text-transform: uppercase;
+    border-bottom: 30px solid #686B72;
+}
+#sec9  h2{
+    font-size: 1.5rem;
+}
+    
+#sec9  h1{
+    color: #686B72;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+    
+#sec9 .wrapper div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 20px;
+}
+
+#sec9 input {
+    padding: 12px 20px;
+    margin: 7px 0; 
+    border-radius: 7px;
+}
+#sec9 button {
+    padding: 12px 20px;
+    margin: 7px 0; 
+    border-radius: 7px;
+    background-color: #686B72;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+
+}
+footer{
+    background: linear-gradient( #25252580,#25252580),url(../Images/bg2.jpg) no-repeat center;
+}
+footer ul{
+    list-style-type: none;
+    padding: 10px 10px;
+    
+}
+footer li {
+    color: #fff;
+    margin: 10px 10px ;
+}
+footer h2 {
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+#yh3 {
+    color: RGB(255,203,15);
+}
+footer ul li a i{
+    background-color: RGB(255,203,15);
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    font-size: 20px;
+    padding: 8px 8px;
+    border-radius: 50%;
+}
+footer a {
+    cursor: pointer;
+}
+#sqr{
+    list-style-type: square;
+}
+#sqr1 {
+    list-style-type: none;
+}
+#copy {
+    height: 10vh;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 10px;
+    background-color:rgb(22, 22, 22);
+    color: #fff;
+}
+#copy span{
+    color: RGB(255,203,15);
+}
+
+    
+    
+    
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .wrapper {
+        max-width: 530px;
+    }
+    #cardcont #card4{
+        padding-top: 10% ;
+        flex-basis: 40%;
+    }    
+    #cardcont #card3{
+        padding-top: 10% ;
+        flex-basis: 40%;
+    }
+    #cardcont #card2{
+        padding-top: 10% ;
+        flex-basis: 40%;
+    }
+    #cardcont #card1{
+        padding-top: 10% ;
+        flex-basis: 40%;
+    }
+    #cardcont #card1 img ,    #cardcont #card2 img ,    #cardcont #card3 img ,    #cardcont #card4 img{
+        top: -35px ;
+        left: 35% ;
+    
+    
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .wrapper {
+        max-width: 730px;
+    }
+    #sec1 .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #sec2{
+        padding: 20px 0px;
+    }
+    #sec2 .wrapper {
+        display: flex;
+        
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    #layer1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #sec3 article{
+        height: 100vh;
+        justify-content: center;
+        align-items: center; 
+   }
+   #cont1 article {
+    flex-basis: 45%;
+    margin-right: 10px;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+footer ul {
+    width: 50%;
+}
+#cardcont {
+    flex-wrap: nowrap;
+}
+#sec7 article {
+    margin-bottom: 20px;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .wrapper {
+        max-width: 960px;
+    }
+    #sec1 .wrapper div:first-of-type{
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+    #sec1 .wrapper div:first-of-type p{
+        padding-left: 10px;
+    }
+    #sec4 .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: justify;
+    }
+    
+    #sec4 .wrapper div:first-of-type{
+        width: 40%;
+    }
+    
+    #sec4 .wrapper div:last-of-type{
+        width: 58%;
+    }
+    
+    #sec4 h1 {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    
+    #sec4 h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+    
+    #sec4 p {
+        font-size: 1rem;
+    }
+    
+    #sec4 a {
+        display: inline-block;
+        margin-top: 15px ;
+        width:auto;
+    }  
+    #artcont {
+        width: 100%;
+
+    } 
+    #sec8 .wrapper>div>article {
+        padding-left: 5%;
+        width: 33%;
+    }
+    .smith{
+        width: 30%;
+    }
+    #sec6 #cont1 article{
+        width: 25%;
+    }
+    #sec7 {
+        background-size: auto;
+    }
+    
+    #sec7 article {
+        display: flex;
+        max-width:none; 
+        justify-content: space-between;
+    }
+
+    
+    #sec7 article>img {
+        width: 48%;
+    }
+    
+    #sec7 article div img {
+        margin: 0;
+    }
+    
+    #sec7 article div img:first-of-type   {
+        margin-bottom: 15px;
+    }
+    #sec7 article div img:nth-of-type(2){
+        margin-bottom: 15px;
+
+    }
+    
+    #sec7 article>div {
+        width: 50%;
+    }
+    
+    #sec9 .wrapper div {
+        max-width: none;
+    }
+    
+   #sec9  .wrapper div {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    #sec9  input:first-of-type{
+        width: 49.5%;
+    } 
+    #sec9  input:nth-of-type(2){
+        width: 49.5%;
+
+    }
+    
+    #sec9  input:nth-of-type(3){
+        width: 74%;
+    }
+
+    #sec9  button{
+        width: 25%;
+    }    
+
+       
+}
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .wrapper {
+        max-width: 1120px;
+    }
+    #sec3 article{
+        height: 100vh;
+        justify-content: center;
+        align-items: center; 
+   }
+   #sec3 article #lh1{
+    font-size: 2.5rem;
+}
+    #sec3 article #yh1{
+    font-size: 3rem;
+}
+    #sec3 article p {
+        font-size: 2rem;
+    }
+    #sec3 article button{
+        margin-top: 25px;
+    }
+    #cont1 article {
+        flex-basis: 30.33%;
+        margin-right: 30px;
+    }
+    #sec9>.wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #sec9 .wrapper div {
+        justify-content: space-between;
+    }
+    footer ul {
+        width: 25%;
+    }
+    #copy {
+        padding-top: 25px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
